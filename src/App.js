@@ -9,7 +9,7 @@ import View from './components/View';
 
 function App() {
   return (
-
+<>
     <BrowserRouter>
     <Routes>
       <Route path="/" exact element={<AddEmployee/>}/>
@@ -17,6 +17,7 @@ function App() {
       <Route path="/view" exact element={<View/>}/>
     </Routes>
     </BrowserRouter>
+    </>
     
   );
 }
